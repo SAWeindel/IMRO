@@ -1,0 +1,26 @@
+{
+    "pos_units": "mm",
+    "field": {
+        "size": [1680, 1440]
+    },
+    "grid": {
+        "size": [180, 120]
+    },
+    "movers": {
+        "size": [178, 118]
+    },
+    "providers": [
+        {"pos": [ 585, 1380], "items": [1], "item_type": "sequence",
+         "period": 4.0, "duration": 0.2, "size": [160, 120]},
+        {"pos": [1050, 1380], "items": [1], "item_type": "sequence",
+         "period": 4.0, "duration": 0.2, "size": [160, 120]},
+        {"pos": [1590, 1020], "items": [1], "item_type": "sequence",
+         "period": 4.0, "duration": 0.2, "size": [160, 120]},
+        {"pos": [1590,  300], "items": [1], "item_type": "sequence",
+         "period": 4.0, "duration": 0.2, "size": [160, 120]}
+    ],
+    "receivers": [
+        {"pos": [ 820, 60], "items": [1], "item_type": "sequence",
+         "period": 1.0, "duration": 0.2, "size": [160, 120]}
+    ]
+}

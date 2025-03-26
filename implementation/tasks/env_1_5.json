@@ -1,0 +1,22 @@
+{
+    "pos_units": "grid",
+    "grid": {
+        "dims": [8, 8],
+        "size": [120, 120]
+    },
+    "movers": {
+        "size": [118, 118]
+    },
+    "providers": [
+        {"pos": [0, 1], "items": [1], "item_type": "sequence",
+         "period": 1.0, "duration": 0.2, "size": [120, 120]},
+        {"pos": [0, 6], "items": [2], "item_type": "sequence",
+         "period": 1.0, "duration": 0.2, "size": [120, 120]}
+    ],
+    "receivers": [
+        {"pos": [7, 1], "items": [1, 2], "item_type": "sequence",
+         "period": 1.0, "duration": 0.2, "size": [120, 120]},
+        {"pos": [7, 6], "items": [2, 1], "item_type": "sequence",
+         "period": 1.0, "duration": 0.2, "size": [120, 120]}
+    ]
+}
